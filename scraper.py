@@ -31,7 +31,7 @@ import json
 #chrome_options.add_argument("--headless")
 
 #Fill in path to chromedrive.exe here
-chromedriver = 'C:\\Users\\jagluck\\Documents\\Github\\nba-twitter\\chromedriver_win.exe'
+chromedriver = 'chromedriver_win.exe'
 
 #to view browser working remove chrome_options
 driver = webdriver.Chrome(chromedriver)
